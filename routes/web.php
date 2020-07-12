@@ -9,5 +9,6 @@
 | contains the "web" middleware group. Now create something great!
 |
  */
-Route::get('/', 'HomeController@index');
+// Route::get('/', 'HomeController@index');
+Route::get('/', 'WebController@index');
 Route::get('/api/whois', 'Api\WhoisController@get');
